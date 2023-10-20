@@ -3,6 +3,10 @@
 Created on Sun Jun 11 16:16:25 2023
 
 @author: karthikkrishnan with help of sarahsundius
+
+This code simulates the on-lattice diffusion mechanics of a chemical across space. It involves a discretization of Fickian diffusion and is merely an approximation
+in order to assist the greater goal of a realistic biological environment for the 2D_AGGREGATES simulation. This lattice class was used in the main Julia sim in
+order to simulate various environmental "layers" such as a public good, an antibiotic, and a nutrient resource.
 """
 
 import numpy as np
