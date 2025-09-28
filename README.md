@@ -7,7 +7,7 @@ There are 2 primary files in this project: 2D_AGGREGATES.ipynb contains the main
 
 NOTE: All key and propietary sections of the main simulation code have been redacted since a publication is currently pending. Please reach out to me at kkrishnan38@gatech.edu if you would like to learn more about the sim or the code! Thank you. 
 
-Dependencies include: Python, Julia, SQLite.
+Below are images of the simulation collated from my undergraduate thesis at Georgia Tech circa 2024.
 
 ## Diffusion
 The forward time-centered space solution of the diffusion equation (solved in diffusion.jl) is a high-error method to solving partial differential equations. However, as far as numerical methods go, it is efficient and easy to implement. 
