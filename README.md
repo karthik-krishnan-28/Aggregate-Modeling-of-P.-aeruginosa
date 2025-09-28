@@ -13,3 +13,21 @@ Below are images of the simulation collated from my undergraduate thesis at Geor
 The forward time-centered space solution of the diffusion equation (solved in diffusion.jl) is a high-error method to solving partial differential equations. However, as far as numerical methods go, it is efficient and easy to implement. 
 
 ![diffusion](https://github.com/karthik-krishnan-28/Aggregate-Modeling-of-Pseudomonas/blob/main/thesis/diffusion.png)
+
+## Aggregate Dynamics
+The simulation was built to observe aggregate growth dynamics at low densities with the intention of investigating a hypothesis regarding faster growing cells being present in larger aggregates and the underlying reasons for this emergent behavior. The figures below show how the simulation can be used to visualize aggregate behavior for different growth scenarios. As can be seen in 2D_AGGREGATES.ipynb, users can fix parameters like growth rates, diffusive aggregation rates, aggregate erosion rates, etc. and then visualize behaviors over time and over many random tests and initial conditions. 
+
+First, a case where aggregates erosion rates are higher than cellular growth rates:
+
+![low-separation](https://github.com/karthik-krishnan-28/Aggregate-Modeling-of-Pseudomonas/blob/main/thesis/low_sep.png)
+
+Second, a case where aggregates erosion rates are lower than cellular growth rates:
+
+![low-separation](https://github.com/karthik-krishnan-28/Aggregate-Modeling-of-Pseudomonas/blob/main/thesis/high_sep.png)
+
+Lastly, a case where aggregates erosion rates are lower than cellular growth rates and diffusive aggregation is turned on:
+
+![low-separation](https://github.com/karthik-krishnan-28/Aggregate-Modeling-of-Pseudomonas/blob/main/thesis/high_sep_collisions.png)
+
+
+A final note: quantitative data can also be collected and analyzed regarding aggregate size and growth distributions as well as cell positions and solute densities/flow.
