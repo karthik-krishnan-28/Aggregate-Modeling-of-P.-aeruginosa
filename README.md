@@ -12,5 +12,4 @@ Dependencies include: Python, Julia, SQLite.
 ## Diffusion
 The forward time-centered space solution of the diffusion equation (solved in diffusion.jl) is a high-error method to solving partial differential equations. However, as far as numerical methods go, it is efficient and easy to implement. 
 
-![alt text][diffusion]
-[diffusion]: https://github.com/karthik-krishnan-28/Aggregate-Modeling-of-Pseudomonas/blob/main/thesis/diffusion.png
+https://github.com/karthik-krishnan-28/Aggregate-Modeling-of-Pseudomonas/blob/main/thesis/diffusion.png
